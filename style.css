@@ -1,0 +1,369 @@
+.many{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cont{
+    background-color: blue;
+     padding-left: 800px;
+     display: flex;
+     justify-content: space-between;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+#wel{
+    margin-top: -50px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.you{
+    margin-left: 500px;
+}
+#lop{
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    border: blue solid;
+    border-radius: 5px;
+    font-size: 21px;
+    margin-left: 500px;
+    margin-bottom: -100px;
+    cursor: pointer;
+}
+.pop a {
+    text-decoration: none;
+}
+.pop{
+    margin-top: -50px;
+    font-size: 35px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.none{
+text-align: center;
+font-size: 24px;
+/* font: bold; */
+margin-right: 20%;
+margin-left: 10%;
+/* justify-content: space-between; */
+
+
+}
+nav ul li{
+    display: inline-block;
+    /* padding: 10px 10px; */
+    padding-left: 60px;
+    justify-content: space-between;
+}
+
+.none a{
+    text-decoration: none;
+}
+ #co{
+    height: 5px;
+    background-color: darkblue;
+    margin-top: -20px;
+ }
+ #but {
+    margin-left: 350px;
+    color: blue;
+    margin-top: -30px;
+}
+#buy{
+    color: blue;
+    margin-left: 350px;
+}
+.get{
+    color: blue;
+    font-size: 20px;
+    margin-left: 60px;
+}
+ #lp{
+    margin-left: 350px;
+    color: blue;
+    margin-top: 30px;
+    font-size: 30px;
+ }
+.content{
+    margin-left: 45px;
+    margin-top: -40px;
+    color: blue;
+   font-size: 20px;
+}
+#our{
+    margin-left: 300px;
+
+}
+#cow1{
+    width: 400px;
+    height: 250px;
+    /* border: black solid; */
+    margin-left: 800px; 
+    margin-top: -40%;
+    border-radius: 10px;
+}
+#mbuzi{
+    width: 400px;
+    height: 250px;
+    /* border: black solid; */
+    margin-left: 800px; 
+    margin-top: -230px;
+    border-radius: 10px;
+
+}
+.footer{
+    width: 1590px;
+    color: white;
+    height: 100px;  
+    background-color: rgb(27, 12, 12);
+}
+#ft{
+    margin-left: 300px;
+    /* text-align: center; */
+}
+.stock{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    /* margin-left: 17%; */
+}
+.donkey{
+    width: 550px;
+    height: 500px;
+     border-radius: 5px;
+    /* border: black solid; */
+    margin-left: 50px;
+}
+.imge img {
+    width: 550px;
+    height: 500px;
+     border-radius: 5px;
+    margin-left: 50px; 
+}
+
+.cow img {
+    width: 550px;
+    height: 550px;
+    border-radius: 5px;
+    
+}
+.sheep img {
+    width: 550px;
+    height: 550px;
+    border-radius: 5px;
+}
+.chicken img{
+    width: 550px;
+    /* border: black solid; */
+    border-radius: 5px;
+    height: 500px;
+    
+}
+.camel img{
+width: 550px;
+/* border: black solid; */
+border-radius: 5px;
+height: 550px;
+
+}
+
+.image-gallery {
+    position: relative;
+  }
+  
+  .scrollable-container {
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .image-wrapper {
+    white-space: nowrap;
+    /* font-size: 0; Remove whitespace gaps between inline-block elements */
+  }
+  
+  .image-wrapper img {
+    display: flex;
+    /* max-width: 100%; */
+    height: auto;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(160, 129, 129);
+    color: black;
+    font-size: 44px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  
+  .arrow-left {
+    left: 53px;
+  }
+  
+  .arrow-right {
+    right: 107px;
+  }
+  @media (max-width: 768px) {
+    /* Adjust the styles for screens with a maximum width of 768px */
+    .cont {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .you {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .none {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #lop {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    #but {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #buy {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .get {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #lp {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #our {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #cow1 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #mbuzi {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #ft {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .donkey {
+        margin-left: 0;
+    }
+
+    .imge img {
+        margin-left: 0;
+    }
+
+    .cow img {
+        margin-left: 0;
+    }
+
+    .sheep img {
+        margin-left: 0;
+    }
+
+    .chicken img {
+        margin-left: 0;
+    }
+
+    .camel img {
+        margin-left: 0;
+    }
+
+      /* Adjust the styles for screens with a maximum width of 768px */
+      .footer {
+          width: 100%;
+          /* max-width: 100%; */
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 10px;
+          padding-right: 10px;
+      
+  }
+}
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+  }
+  body{
+    background-color: #191919;
+  }
+  .gallery{
+    width: 900px;
+    display: flex;
+    overflow-x: none;
+  }
+  .gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+    padding: 10px;
+     flex: none;
+     
+  }
+  .gallery div img{
+    width: 100%;
+    filter: grayscale(0);
+    transform: transform 0.5s;
+  }
+  .gallery::-webkit-scrollbar{
+    display: none;
+  }
+  .gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+  }
+  #backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+  }
+  .gallery div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+ */
+
+  
+
+
+
+
+
+
